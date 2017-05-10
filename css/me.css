@@ -1,0 +1,70 @@
+.tt-nav li{width: 25%; float: left;padding: 8px 0;}
+.tt-nav li .navs{width:30px; height: 25px; display: block; vertical-align: middle; margin: 0 auto; }
+.tt-nav li .nav1{background-position: -101px 1px}
+.tt-nav li .nav2{background-position: -145px 1px}
+.tt-nav li .nav3{background-position: -182px 1px}
+.tt-nav li .nav4{background-position: -220px 2px}
+.tt-nav li span{color: #fff; text-align: center; display: block;}
+.tt-nav li.shopping{position: relative;}
+.tt-nav li b{position:absolute; height:14px; line-height:14px; padding:0 3px; font-size:12px;   border-radius:7px; color:#eb3560; background:#fff; top:5px; left: 52%; text-align:center; font-weight: normal;}
+
+
+/*内容*/
+
+.own_con{background-color:#f2f2f2; float:left; width:100%;}
+/*第一部分*/
+.own_banner{position:relative;}
+.own_banner img{width:100%;}
+.own_banner .own_inform{position:absolute; width:86%; top:15%; left:8%; overflow:hidden;}
+.own_banner .own_inform .own_pic{width:60px; height:60px; border-radius:100%;  float:left;}
+.own_banner .own_inform .own_detail{margin:8px 0 0 10px;}
+.own_banner .own_inform .own_name{width:60%; height:18px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; color:#fff; font-size:14px; line-height:20px;}
+.own_banner .own_inform .own_login{display:block; float:right; margin-top:-17px; font-size:14px; color:#fff; text-decoration:underline;}
+
+/*第二部分*/
+.modu_box{width:90%; margin:0 auto 10px; padding:0 5%; background-color:#fff;}
+.own_order{ position:relative; height:50px; line-height:50px; font-size:14px; border-bottom:1px solid #f2f2f2;}
+.own_order a{display:block; overflow:hidden; color:#333;}
+/*图标*/
+.own_order .own_order_icon,
+.own_order .order_more, 
+.own_order_option li .option_pay,
+.own_order_option li .option_deli,
+.own_order_option li .option_reci,
+.own_order_option li .option_comp,
+.own_more_con li .own_more,
+.own_more_con .own_colle, 
+.own_more_con li .own_serv, 
+.own_more_con li .own_help, 
+.own_more_con li .own_about, 
+.own_more_con li .own_redhb, 
+.own_wallet .coupon_remind span
+{background: url(../img/me/own_center.png) no-repeat;background-size: 150px 150px;}
+
+.own_order_option li{width:25%; float:left;}
+.own_order .own_order_icon{position:absolute; width:20px; height:25px; background-position:-37px -5px; top:15px; left:0;}
+.own_order .own_order_con{display:inline-block; margin:0 40px 0 25px;}
+.own_order .order_more{position:absolute; right:0; top:15px; width:15px; height:20px;  background-position:-74px -5px;}
+
+/*ul li*/
+.own_order_option{width:100%; padding:15px 0; overflow:hidden;}
+.own_order_option li a{display:block; color:#666; font-size:12px; text-align:center;}
+.own_order_option li span{display:block; margin:0 auto;  position:relative; }
+.own_order_option li .option_pay{width:35px; height:35px;  background-position:-31px -35px;}
+.own_order_option li .option_deli{width:35px; height:35px;  background-position:3px -35px;}
+.own_order_option li .option_reci{width:35px; height:35px;  background-position:-66px -35px;}
+.own_order_option li .option_comp{width:35px; height:35px; background-position:-100px -35px;}
+
+
+/*第三部分*/
+.own_more_con{width:100%;}
+.own_more_con li{position:relative; height:50px; line-height:50px; border-bottom:1px solid #f2f2f2;}
+.own_more_con li:last-child{border:none;}
+.own_more_con li a{display:block; overflow:hidden; font-size:14px; color:#333;}
+.own_more_con li .own_colle{position:absolute; width:20px; height:25px; background-position:-7px -78px; top:15px; left:0;}
+.own_more_con li .own_serv{position:absolute; width:20px; height:25px; background-position:-37px -77px; top:15px; left:0;}
+.own_more_con li .own_help{position:absolute; width:20px; height:25px; background-position:-68px -79px; top:15px; left:0;}
+.own_more_con li .own_about{position:absolute; width:20px; height:25px; background-position:-98px -79px; top:15px; left:0;}
+.own_more_con li .own_con_detail{display:inline-block; margin:0 40px 0 25px;}
+.own_more_con li .own_more{position:absolute; right:0; top:15px; width:15px; height:20px;  background-position:-74px -5px; }
+.own_more_con li .own_redhb{position:absolute; width:20px; height:25px; background-position:-128px -75px; top:15px; left:0;}

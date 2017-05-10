@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/logres.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<header class="header">
+		    <span onclick="window.history.go(-1)"></span>登录
+		    <a class="zhuce" href="./register.html" name="register">注册</a>  
+    	</header>
+    	<section class="content">
+    		<div class="denglukuang">
+    			<form action="" data-role="login" method="post">        
+    				<div class="comm-con" style="display: block;">
+            			<div class="user_div clearfix">
+            				<span class="user_icon"></span>
+            				<input id="loginModel_UserName" placeholder="手机号/邮箱/用户名" type="text">
+				    	</div>   
+					    <div class="password_div">
+					    	<span class="pwd_icon"></span>
+					    	<input id="loginModel_Password" placeholder="密码" type="password">
+					    </div>
+					    <div class="remember">
+	                		<input id="remain" type="checkbox" class="mian-in"><span>记住用户名</span>
+	            		</div>
+	            		<div class="info" id="info"></div>
+	            		<div class="tie_im tie_im_ac">
+	                    	<div class="r_load_btn" style="text-align: center;">登录</div>
+	            		</div>
+            		</div>
+				</form>
+    		</div>
+    	</section>
+    	
+    	
+    	<script type="text/javascript" src="/web/lib/jQuery/jquery-1.12.4.min.js" ></script>
+	    <script type="text/javascript" src="/web/lib/jQuery/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="../js/login.js" ></script>
+	</body>
+</html>

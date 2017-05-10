@@ -1,0 +1,116 @@
+/*@media screen and  (min-width: 1335px){
+	#OnehourSection{height:360px; }
+	}
+
+@media screen and  (min-width: 1243px) and (max-width: 1334px){
+	#OnehourSection{height:350px;}
+	.search-box{ width:82%;  }
+	.search-box input{ width:88%; }
+	}
+@media screen and  (min-width: 1151px) and (max-width: 1242px){
+	#OnehourSection{height:340px; }
+	}
+@media screen and  (min-width: 1025px) and (max-width: 1150px){
+	#OnehourSection{height:330px; }
+	.search-box{ width:82%;  }
+	.search-box input{ width:88%; }
+	}
+@media screen and  (min-width: 961px) and (max-width: 1024px){
+	#OnehourSection{  height:362px;}
+	.search-box{ width:81%;  }
+	.search-box input{ width:88%; }
+	}
+@media screen  and (min-width: 881px) and (max-width: 960px){
+	#OnehourSection{ height:350px; }
+	}*/
+@media screen  and (min-width: 801px) and (max-width: 880px){
+	#OnehourSection{ height:350px; }
+	.search-box{ width:79%;  }
+	.search-box input{ width:85%;}
+	}
+@media screen and (min-width: 751px) and (max-width: 800px){
+	#OnehourSection{ height:328px;}
+	.search-box{ width:78%;  }
+	.search-box input{ width:85%;}
+	}
+@media screen and (min-width: 721px) and (max-width: 750px){
+	#OnehourSection{ height:420px;}
+	.search-box{ width:77%;  }
+	.search-box input{ width:85%;}
+	}
+@media screen and (min-width: 701px) and (max-width: 720px){
+	#OnehourSection{ height:410px; }
+	.search-box{ width:77%;  }
+	.search-box input{ width:85%;}
+	}
+@media screen and (min-width: 641px) and (max-width: 700px){
+	#OnehourSection{ height:398px; }
+	.search-box{ width:76%;  }
+	.search-box input{ width:85%; }
+	}
+@media screen and (min-width: 601px) and (max-width: 640px){
+	#OnehourSection{ height:394px;}
+	.search-box{ width:72%;  }
+	.search-box input{ width:85%;}
+	}
+@media screen and (min-width: 541px) and (max-width: 600px){
+	#OnehourSection{ height:380px;}
+	.search-box{ width:72%;  }
+	.search-box input{ width:85%;}
+}
+@media screen and (min-width: 491px) and (max-width: 540px){
+	 #OnehourSection{ height:366px;}
+	}
+@media screen and (min-width: 415px) and (max-width: 490px){
+	 #OnehourSection{ height:360px;}
+	}	
+@media screen and (min-width: 415px) and (max-width: 435px){
+	 #OnehourSection{ height:376px;}
+	}
+@media screen and (min-width: 401px) and (max-width: 414px){
+	 #OnehourSection{ height:370px;}
+	 .search-box{ width:66% ;}
+     .search-box input{ width:80% }
+	}	
+@media screen and (min-width: 361px) and (max-width: 400px){
+	#OnehourSection{  height:355px; }
+	.search-box{ width:60%;  }
+	.search-box input{ width:70%;}
+	}
+@media screen and (max-width: 420px){
+	.prd-into-box .prd-cont{top:9%;}
+	}
+@media screen and (min-width: 321px) and (max-width: 360px){
+	#OnehourSection{  height:340px; }
+	.search-box{ width:60%;  }
+	.search-box input{ width:70%;}
+	}
+@media screen and (max-width: 320px){
+	#OnehourSection{ height:336px; }
+	.search-box{ width:60%;  }
+	.search-box input{ width:65%; }
+	.prd-into-box .prd-cont{top:4%;}
+/*	.m-switch-tit li{font-size:14px;line-height:40px; height:40px;}
+	.m-switch-tit li h3{font-size:14px; line-height:40px; height:40px;}
+	.m-switch-tit li p .time-icon{width:30px; height:30px; top:0;margin-top:5px;}
+	.m-switch-tit li p .sale-time{line-height:40px; height:40px;}
+	.m-switch-tit li p em{font-size:14px; margin:0;}*/
+	
+	.prd-into-box .prd-cont h3{font-size:14px; line-height:20px; margin-bottom:6px;}
+	.prd-into-box .prd-cont .prd-price{overflow:hidden;height:35px;}
+	.prd-into-box .prd-cont .prd-price span{line-height:35px;float: right;display: block;font-size: 14px;}
+	.prd-into-box .prd-cont .prd-price span.prd-price-hd{font-size:18px;}
+	.prd-into-box .prd-cont .prd-into-buy{font-size:16px;}
+}
+
+@media only screen and (max-width:480px) {
+ .cart_shop_acc_btn{padding:0 10px; }
+ .cart_shop_acc_num{display:inline-block; float:left; padding-left:3px;}
+ .cart_shop_acc_num span{font-size:12px;}
+}
+
+@media only screen and (max-width:320px) {
+.cart_shop_acc_btn{padding:0 2px; }
+.cart_shop_acc_num{display:inline-block; float:left; padding-left:3px;}
+.cart_shop_acc_num span{font-size:12px;}
+}

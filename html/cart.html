@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../css/cart.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+	<!--头部-->
+	<header class="under_header">
+        <div class="tt-top ">
+        	<!--返回-->
+            <a href="javascript:void(0);" class="go-back" onclick="window.history.go(-1)" name="cart_back"></a>	
+            <div class="erro">购物车</div>
+            <!--列表-->
+            <a href="javascript:void(0);" class="tt-xiala" name=""></a>  
+        </div>
+    </header>
+    <!--内容-->
+	<div id="cartList">
+		<div class="empty" style="display: none;">
+	        <div class="cart_empty_t">
+	            <span>您的购物车是空的，快去选购吧！</span><br>        
+	        </div>
+	        <a href="/web/index.html" class="cart_empty_btn2">开始购物</a>
+	    </div>
+		<div class="content" style="display: block;">
+			<div class="cart_shop_tit">
+				<input id="allSelect" type="checkbox">
+				<span class="cart_shop_name">莹草网</span>
+			</div>
+			<div class="cart_shop_list">
+				<ul class="cart_list">
+					<li class="clearfix">
+				        <div class="items">
+				            <div class="cart_shop_choose">
+				                <input type="checkbox" class="choose">
+				            </div>
+				            <div class="cart_shop_item_core ">
+				                <a href="#" class="cart_product_cell_1">
+				                	<img src="" alt="" class="cart_photo_thumb">
+				                </a>
+				                <div class="cart_product_cell_2">
+				                    <div class="cart_product_name">
+				                        <a href="#">kkuh</a>
+				                    </div>     
+				                    <div class="cart_shop_opt">
+				                        <div class="cart_shop_price">
+				                        	￥<span></span>
+				                        </div>
+				                        <!--小计-->
+				                        <div class="sum" style="display: block;"></div>
+				                        <div class="cart_shop_number">
+				                            <a name="cart_add" href="javascript:void(0);" class="cart_shop_num_dec"></a>
+				                            <input type="text" class="cart_shop_quantity" name="num" value="6">
+				                            <a name="cart_dec" href="javascript:void(0);" class="cart_shop_num_add"></a>
+				                        </div>
+				                            <div name="cart_delete" class="cart_pro_del"></div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+        <div class="cart_shop_account">
+            <div name="cart_select_all" class="cart_shop_acc_all">
+            	<div class="cart_shop_acc_num">总计:￥<span id="sum"></span></div>
+            	<a name="cart_cast" href="javascript:void(0);" class="cart_shop_acc_btn">去结算</a>
+            </div>
+        </div>
+    </footer>
+
+	<script type="text/javascript" src="/web/lib/jQuery/jquery-1.12.4.min.js" ></script>
+    <script type="text/javascript" src="/web/lib/jQuery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../js/cart.js" ></script>
+	</body>
+</html>

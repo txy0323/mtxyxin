@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/use/swiper.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/use/media.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="m-search-box clearfix" id="divnavigation">
+			<a href="http://web.txyxin.com/" class="logo-img"></a>
+			<div class="search-box clearfix">
+				<input type="text" placeholder="315美妆聚惠，秒杀4.9">
+				<button id="btn-search" type="button" class="souj" value="搜索"></button>
+			</div>
+			<a class="peo-self">
+				<span>登录</span>
+				<img class="peo" src="img/icon/peo.png">
+			</a>
+		</div>
+		<!--轮播图-->
+		<section class="swiper-container swiper-container-horizontal">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide swiper-slide-active" style="width: 320px;">
+					<a href="#" name="__AD_home_lunbo_1">
+						<img src="img/banner/banner2.jpg" alt="0306美妆聚惠">
+					</a>
+				</li>
+				<li class="swiper-slide swiper-slide-next" style="width: 320px;">
+					<a href="#" name="__AD_home_lunbo_2">
+						<img src="img/banner/banner4.jpg" alt="0306砸蛋">
+					</a>
+						</li>
+						<li class="swiper-slide" style="width: 320px;">
+							<a href="#" name="__AD_home_lunbo_3">
+								<img src="img/banner/banner1.jpg" alt="0314安娜苏">
+							</a>
+						</li>
+						<li class="swiper-slide" style="width: 320px;">
+							<a href="#" name="__AD_home_lunbo_4">
+							<img src="img/banner/banner3.jpg" alt="0306买了卖"></a>
+						</li>
+			</ul>
+			<!-- 小圆点 -->
+			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets" id="swiper-pagination">
+				<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+			</div>
+		</section>
+		
+		<!--分类-->
+		<section class="m-category-box">
+			<ul class="clearfix">
+				<li>
+					<a href="#" name="home_lnk_1">
+						<img alt="海外购" tag="lazy" src="img/icon/icon2.png" style="display: block;">
+						<span>海外购</span>
+					</a>
+				</li>
+				<li>
+					<a href="" name="home_lnk_2"><img alt="品牌闪购" tag="lazy" src="img/icon/icon3.png" style="display: block;">
+					<span>品牌闪购</span>
+					</a>
+				</li>
+				<li>
+					<a href="" name="home_lnk_3">
+						<img alt="新人福利" tag="lazy" src="img/icon/icon4.png" style="display: block;">
+						<span>新人福利</span>
+					</a>
+				</li>
+				<li>
+					<a href="" name="home_lnk_4">
+						<img alt="分类" tag="lazy" src="img/icon/icon1.png" style="display: block;">
+						<span>分类</span>
+					</a>
+				</li>
+				<li>
+					<a href="" name="home_lnk_5">
+						<img alt="摇一摇" tag="lazy" src="img/icon/icon5.png" style="display: block;">
+						<span>摇一摇</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+		
+		<!--一小时闪购-->
+		<section class="m-sale-box" id="OnehourSection" style="display: none;">
+			<article class="m-sale-tit">
+			    <h2><span class="tit-logo hour-sale"></span><span>1小时闪购</span></h2>
+			    <p><span>整点更新</span><span> 底价限量</span></p>
+			</article>
+			<ul class="m-switch-tit clearfix">
+			    <li id="tab-a" class="m-switch-active">
+			        <h3>几点闪购</h3>
+			        <p><span class="time-icon"></span><span class="sale-time" id="onehourRemaintimes">倒计时</span></p>
+			    </li>
+			</ul>
+		</section>
+		
+		<!--精品推荐-->
+		<section class="m-sale-box">
+			<article class="m-sale-tit">
+				<h2>
+					<span class="tit-logo prd-reco"></span>
+					<span>精品推荐</span>
+				</h2>
+				<p>
+					<span>人气尖货</span>
+					<span> 达人必buy</span>
+				</p>
+			</article>
+			<ul id="bk_pro">
+			</ul>
+		</section>
+		
+	<!--大牌闪购-->
+		<section class="m-sale-box">
+			<article class="m-sale-tit">
+				<h2>
+					<span class="tit-logo brand-shine"></span>
+					<span>大牌闪购</span>
+				</h2>
+				<p><span>每日10点上新</span></p>
+			</article>
+			<ul class="brand-shine-box" id="brand-shine">
+				<li class="today-time">
+					<a href="#">
+						<img alt="迪奥" tag="llazy" src="img/brand/brand1.jpg" style="display: inline;">
+					</a>
+				</li>
+				<li class="today-time">
+					<a href="#">
+						<img alt="迪奥" tag="llazy" src="img/brand/brand2.jpg" style="display: inline;">
+					</a>
+				</li>
+				<li class="today-time">
+					<a href="#">
+						<img alt="迪奥" tag="llazy" src="img/brand/brand3.jpg" style="display: inline;">
+					</a>
+				</li>
+				<li class="today-time">
+					<a href="#">
+						<img alt="迪奥" tag="llazy" src="img/brand/brand4.jpg" style="display: inline;">
+					</a>
+				</li>
+				<li class="today-time">
+					<a href="#">
+						<img alt="迪奥" tag="llazy" src="img/brand/brand5.jpg" style="display: inline;">
+					</a>
+				</li>
+				<li class="today-time">
+					<a href="#">
+						<img alt="迪奥" tag="llazy" src="img/brand/brand6.jpg" style="display: inline;">
+					</a>
+				</li>
+			</ul>
+		</section>
+		
+	<!--今日闪购-->
+		<section class="m-sale-box">
+			<article class="m-sale-tit">
+				<h2>
+					<span class="tit-logo today-buy"></span>
+					<span>今日闪购</span>
+				</h2>
+				<p>
+					<span>全球美妆</span>
+					<span> 限时闪购</span>
+				</p>
+			</article>
+			<ul class="today-buy-prd clearfix" id="today-ul">
+				
+			</ul>
+		</section>
+		
+		<!--尾部-->
+		<section class="bottom-nav-box">
+			<ul class="btm-nav clearfix">
+				<li>
+					<a href="http://web.txyxin.online" name="home_homepage">
+						<span class="yingcao-tag"></span>莹草首页
+					</a>
+				</li>
+				<li>
+					<a href="javacript:void(0);" name="home_tel">
+						<span class="kefu-tag"></span>客服热线
+					</a>
+				</li>
+			</ul>
+			<ul class="bottom-more clearfix">
+				<li>
+					<a href="http://www.txyxin.online" name="home_pc">电脑版</a>
+				</li>
+				<li>
+					<a href="#" name="home_login">登录</a>
+				</li>
+				<li><a href="#" name="home_register">注册</a></li>
+			</ul>
+			<p class="foot-nom">©2017 成都莹草科技股份有限公司 txyxin.online 保留一切权利。 
+				<br>川公网安备11001933928014 川ICP证610332号。
+			</p>
+		</section>
+		
+		
+		<!--购物车图标-->
+		<div class="J-shoping">
+			<div class="J-shoping-main">
+				<div class="J-shoping-title">
+					<a href="/web/html/cart.html" class="J-go" name="home_cart"></a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript" src="./lib/use/swiper.min.js" ></script>
+		<script type="text/javascript" src="./lib/jQuery/jquery-1.12.4.min.js" ></script>
+	    <script type="text/javascript" src="./lib/jQuery/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="./lib/artTemplate/template-native.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		
+		<script type="text/javascript">
+			   var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				autoplay: 2000,
+			});
+		</script>
+	<!--精品推荐模板-->
+		<script id="floor" type="text/html"> 
+            <% for (var j = 0; j < 6; j++) {
+              var p = list[j];
+            %>
+            <li class="prd-into-box">
+            	<div class="num" style="display: none;"><%=p.num%></div>
+				<a class="link">
+					<img alt="<%p.alt%>" tag="llazy" src="<%=p.url%>" style="display: inline;">
+				</a>
+              	<div class="prd-cont" name="jingpinDetail">
+					<h3>
+						<a href="#"><%=p.name%></a>
+					</h3>
+					<p>
+						<a href="#"><%=p.introduce%></a>
+					</p>
+					<div class="prd-price">
+						<span class="prd-price-sale">¥<%=p.marketprice%></span>
+						<span class="prd-price-hd">¥<%=p.price%></span>
+					</div>
+					<a href="#" class="prd-into-buy">立即抢购</a>
+				</div>
+            </li>  
+            <%}%>
+          </script>
+        <script type="text/javascript">
+            $(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "php/quality.php", 
+                    dataType: "json",
+                    success: function(data){ 
+                      data = {list:data};
+                        var html = template("floor",data);
+                       $("#bk_pro").html(html); 
+                    }
+                });
+            });
+          </script>
+	
+	<!--大牌闪购模板-->
+		<!--<script id="floor" type="text/html"> 
+            <% for (var j = 6; j < 9; j++) {
+              var p = list[j];
+            %>
+            <li class="today-time">
+				<a href="#">
+					<img alt="<%p.alt%>"  tag="llazy" src="<%=p.url%>" style="display: inline;">
+				</a>
+			</li>
+            <%}%>
+          </script>-->
+        <!-- <script type="text/javascript">
+            $(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "php/quality.php", 
+                    dataType: "json",
+                    success: function(data){ 
+                      data = {list:data};
+                        var html = template("floor",data);
+                       $("#bdm264098114").html(html); 
+                    }
+                });
+            });
+          </script>-->
+		
+	<!--今日闪购模板-->
+		<script id="flash" type="text/html"> 
+            <% for (var j = 33; j < 74; j++) {
+              var p = list[j];
+            %>
+            <li>
+				<div class="sp-pro-tags">
+					<div class="b-tags"></div>
+				</div>
+				<a href="#">
+					<img tag="lazy" alt="<%p.alt%>"  src="<%=p.url%>" style="display: inline;">
+				</a>
+				<p>
+					<span class="today-hd-price">¥<%=p.price%></span>
+					<span class="today-mark-price">¥<%=p.marketprice%></span>
+				</p>
+				<h4>
+					<a href="#"><%=p.name%></a>
+				</h4>
+				<div class="coll-cart" name="todayProlike">
+					<div class="num" style="display: none;"><%=p.num%></div>
+					<div class="heart" rel="like"></div>
+					<div class="likeCount" name="todayProfavotrcount"><%=p.evaluation%></div>
+					<a href="javascript:void(0)" title="加入购物车" class="Q-buy-btn"></a>
+				</div>
+			</li>
+            <%}%>
+        </script>
+			
+		<script type="text/javascript">
+            $(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "php/products.php", 
+                    dataType: "json",
+                    success: function(data){ 
+                      data = {list:data};
+                        var html = template("flash",data);
+                       $("#today-ul").html(html); 
+                    }
+                });
+            });
+          </script>
+	
+	
+	</body>
+</html>

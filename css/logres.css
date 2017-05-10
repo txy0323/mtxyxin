@@ -1,0 +1,44 @@
+/*头部*/
+input,img{vertical-align:middle}
+.header{height:50px; width:100%; background-color:#f8f8f8; font-size:18px; line-height:50px; text-align:center; display:block; position:relative;}
+.header span{display:inline-block;  width:18px; height:50px; margin-left:5%; background:url(../img/icon/m_top_back.png) no-repeat center center; position:absolute; left:0; text-decoration:none; outline:0;}
+.header .zhuce{position:absolute; right:5%; top:0; color:#666; font-size:18px; line-height:50px;}
+
+
+/*内容 */
+.content{width:90%; margin:50px 15px 15px;}
+.content div{margin:0 auto;position:relative; }
+.content .user_div{border-bottom:1px solid #efefef;}
+.content .password_div{border-bottom:1px solid #efefef;}
+.content .email_div{border-bottom:1px solid #efefef;}
+.content div input{border:none; width:78%;height:60px; line-height:60px; padding-left:2%;vertical-align:middle; font:16px/30px "microsoft yahei";color:#666; }
+.content .user_icon,.content .pwd_icon,.content .email_icon{width:34px; height:60px; display:block; float:left;}
+.content .user_icon{ background: url(../img/icon/pop_rest.png) no-repeat center center;background-size:20px;}
+.content .pwd_icon{background: url(../img/icon/key.png) no-repeat center center;background-size:18px;}
+.content .email_icon{background:url(../img/icon/email.png) no-repeat center center;background-size:31px;}
+.content .word{width:90%; display:none;line-height: 14px; margin: 2px 15px;}
+
+
+
+/*记住用户名*/
+.content div.remember{	border: none; border-bottom:none;margin: 20px 0;}	
+.content .remember .mian-in{width: 18px;height: 18px;border: 1px solid #999; color:#f00; padding: 0; margin:0 8px;appearance:checkbox;}
+.content .remember input{border: 1px solid #999;width: 12px; height:12px; padding: 0;}				
+.content .remember span{font-size: 120%;color: #999; line-height:18px;}
+
+/*注册按钮*/
+.content .tie_im input{background-color:#ec3461; color:#fff;}
+.content .tie_im_ac{ margin-top:30px; }
+.content .tie_im_ac input{background-color:#ec3461; color:#fff;width:100%; height:50px; line-height:50px;}
+
+.content .tie_im .r_load_btn{background-color:#ec3461; color:#fff;}
+.content .tie_im_ac{margin-top:30px;}
+.content .tie_im_ac .r_load_btn{background-color:#ec3461; color:#fff;width:100%; height:50px; line-height:50px;font-size: 16px;}
+
+
+/*注册协议*/
+.third_tie_in div.login{ width:100%; text-align:center; color:#b5b5b5; border-bottom:none; padding-top:15px;}
+.third_tie_in div.login p{ text-align:center;color:#b5b5b5; font-size:14px;}
+
+/*检查*/
+.check{width:90%; display:none;line-height: 18px; margin:10px 15px; color: #ec3461;display: none;}

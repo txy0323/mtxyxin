@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../css/detail.css" />
+		<link rel="stylesheet" href="../css/use/swiper.min.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<header class="under_header">
+			<div class="tt-top ">
+		<!--返回-->
+			<a href="javascript:void(0);" class="go-back" onclick="history.back();" name="product_back"></a>
+		<!--列表-->
+			<a href="javascript:void(0);" class="tt-xiala" name=""></a>
+			</div>
+		</header>
+		
+		<!--图片价格简介-->
+		<div class="wap_pro">
+			<!--商品图片-->
+			<div class="pro_tu">
+				<div class="swiper-container swiper-container-horizontal">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide swiper-slide-active" style="width: 345px; margin-right: 30px;">
+							<img src="" id="image0">
+						</div>
+						<div class="swiper-slide swiper-slide-next" style="width: 345px; margin-right: 30px;">
+							<img src="" id="image1">
+						</div>
+						<div class="swiper-slide" style="width: 345px; margin-right: 30px;">
+							<img src="" id="image2">
+						</div>
+					</div>
+					<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+						<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+						<span class="swiper-pagination-bullet"></span>
+						<span class="swiper-pagination-bullet"></span>
+					</div>
+				</div>
+				<span class="discount" id="discount"></span>
+			</div>
+			<!--商品价格-->
+			<div class="pro_sg_price" style="padding-top: 30px;">
+				<span class="sg_price_now"></span><!--闪购价-->
+				<del></del>       <!--原价-->
+				<!--已售数量-->
+				<span class="sg_pro_num">
+					<em></em>
+				</span>
+			</div>
+			<!--简介-->
+			<h2 style="margin-top: 15px;">
+				富含澳洲番石榴提取物，全面激活、修复、肌肤如丝绸般柔滑细腻，粉嫩润亮，展现淳美肤质。
+			</h2>
+		</div>
+	<!--icon-->
+		<div class="pro_det pro_recomm pro_pt_recomm">
+			<div class="pro_ps_ys">
+				<div class="wap_ys">
+					<dl class="wap_ys_1">
+						<dt></dt>
+						<dd>官方授权</dd>
+					</dl>
+					<dl class="wap_ys_2">
+						<dt></dt>
+						<dd>正品保证</dd>
+					</dl>
+					<dl class="wap_ys_3">
+						<dt></dt>
+						<dd>闪电发货</dd>
+					</dl>
+					<dl class="wap_ys_4">
+						<dt></dt>
+						<dd>60天退货</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	<!--猜您喜欢-->	
+		<div class="cart_look_more" style="display: none;">
+			<!--title-->
+			<div class="cart_l_m_t">
+				<b class="pro_see_line"></b>
+				<span>猜您喜欢</span>
+				<b class="pro_see_line"></b>
+			</div>	
+			<!--content-->	
+		</div>
+		
+	<!--商品详情-->
+		<div class="wap_pro_detail">
+			<!--title-->
+			<div class="wap_continue">
+				<b class="pro_see_line"></b>
+				<em>商品详情</em>
+				<b class="pro_see_line"></b>
+			</div>
+			<!--商品参数-->
+			<div class="pro_det pro_det_1">
+	   			<div class="pro_tit">商品参数</div>
+	            <div class="pro_det_con">
+	            	<div class="js_con_show ">
+	                    <div class="show_cs">
+	                    <p class="clearfix top_1">
+	                    	<b>商品名称</b>
+	                    	<span></span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>商品品牌</b>
+	                    	<span></span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>适用人群</b>
+	                    	<span>女士</span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>适用肌肤</b>
+	                    	<span>任何</span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>商品功效</b>
+	                    	<span></span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>商品包装</b>
+	                    	<span></span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>产地</b>
+	                    	<span></span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>保质期</b>
+	                    	<span></span>
+	                    </p>
+	                    <p class="clearfix">
+	                    	<b>商品规格</b>
+	                    	<span>正常规格</span>
+	                    </p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+			<!--商品描述-->
+			<div class="pro_det">
+				<div class="pro_tit">商品描述</div>
+		        <div class="pro_det_con">
+		        	<p id="introduce"></p>
+		        	<p><br></p>
+		        </div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="bt_nav">
+			<a class="bt_nav_1" name="product_cchelp" href="javascript:void(0);">
+				<i></i>
+				<span>在线客服</span>
+			</a>
+			<a class="bt_nav_2" name="product_focus" href="javascript:void(0);">
+				<i class=""></i>
+				<span>收藏</span>
+			</a>
+			<a class="bt_nav_3" name="product_add_cart" href="cart.html">
+				<i></i>
+				<span>购物车</span>
+			</a>
+			<a class="bt_nav_4" name="product_notice" href="javascript:void(0);">
+				<em></em>
+				<span>加入购物车</span>
+			</a>
+		</div>
+		
+		<!--尾部-->
+		<section class="bottom-nav-box">
+			<ul class="btm-nav clearfix">
+				<li>
+					<a href="http://web.txyxin.online" name="home_homepage">
+						<span class="yingcao-tag"></span>
+						莹草首页
+					</a>
+				</li>
+				<li>
+					<a href="javacript:void(0);" name="home_tel">
+						<span class="kefu-tag"></span>
+						客服热线
+					</a>
+				</li>
+			</ul>
+			<ul class="bottom-more clearfix">
+				<li>
+					<a href="http://www.txyxin.online" name="home_pc">电脑版</a>
+				</li>
+				<li>
+					<a href="#" name="home_login">登录</a>
+				</li>
+				<li><a href="#" name="home_register">注册</a></li>
+			</ul>
+			<p class="foot-nom">©2017 成都莹草科技股份有限公司 txyxin.online 保留一切权利。 
+				<br>川公网安备11001933928014 川ICP证610332号。
+			</p>
+		</section>
+		
+		
+		
+		<script type="text/javascript" src="/web/lib/use/swiper.min.js" ></script>
+		<script type="text/javascript" src="/web/lib/jQuery/jquery-1.12.4.min.js" ></script>
+	    <script type="text/javascript" src="/web/lib/jQuery/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="../js/detail.js" ></script>
+	    <script type="text/javascript">
+			   var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+			});
+		</script>
+		
+	</body>
+</html>

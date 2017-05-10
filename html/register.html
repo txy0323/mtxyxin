@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/logres.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<header class="header">
+    		<span onclick="window.history.go(-1)"></span>注册
+    	</header>
+    	<section class="content" id="con_tie">
+    		<div class="form">
+    			<!--用户名-->
+			    <div class="user_div clearfix">
+			    	<span class="user_icon"></span>
+			    	<input id="UserName" placeholder="用户名" type="text" value="">
+			    	<span class="word one"></span>
+			    </div>	
+			    <!--邮箱-->
+			    <div class="email_div clearfix">
+			    	<span class="email_icon"></span>
+			    	<input id="eMail" placeholder="邮箱" type="text" value="">
+			    	<span class="word two"></span>
+			    </div>	
+			    <!--密码-->
+			    <div class="password_div">
+			    	<span class="pwd_icon"></span>
+			    	<input id="passWord" placeholder="设置密码" type="password">
+			    	<span class="word three"></span>
+			    </div>
+			    <!--确认密码-->
+			    <div class="password_div hasError">
+			    	<span class="pwd_icon"></span>
+			    	<input id="repeatPassWord" placeholder="再次设置" type="password">
+			    	<span class="word four"></span>
+			    </div>		    
+			    <!--注册按钮-->
+			    <div class="tie_im tie_im_ac">
+			        <input type="submit" value="注册" id="r_load_btn">
+			    </div>	    
+			    <p class="check" style="display: none;">数据不完善，不可注册</p>
+			</div>
+			<div class="login">
+			    <p>注册即表示已阅读并同意<span><a href="/Help/UserService">用户服务协议</a></span></p>
+			</div>
+		</section>
+
+		
+    	<script type="text/javascript" src="/web/lib/jQuery/jquery-1.12.4.min.js" ></script>
+	    <script type="text/javascript" src="/web/lib/jQuery/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="../js/register.js" ></script>
+
+	</body>
+</html>
